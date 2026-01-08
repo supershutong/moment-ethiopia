@@ -1,0 +1,30 @@
+{
+  "name": "moment-ethiopia",
+  "main": "moment-ethiopia.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/supershutong/moment-ethiopia",
+  "authors": [
+    "supershutong"
+  ],
+  "description": "An Ethiopian calendar plugin for moment.js.",
+  "keywords": [
+    "ethiopian",
+    "amharic",
+    "geez",
+    "calendar",
+    "date",
+    "conversion",
+    "convert"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "momentjs": "^2.22.1"
+  }
+}
