@@ -1,13 +1,14 @@
 {
   "name": "moment-ethiopia",
-  "version": "0.1.0",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An Ethiopian calendar plugin for moment.js.",
   "author": {
     "email": "liu_xiangyang@sina.cn"
   },
   "license": "MIT",
   "keywords": [
+    "moment-ethiopia",
+    "ethiopia",
     "ethiopian",
     "amharic",
     "geez",
@@ -19,6 +20,7 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "test.js",
     "README.md",
     "LICENSE"
   ],

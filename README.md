@@ -85,17 +85,17 @@ m.format('eYYYY/eM/eD'); // 2014/1/1
 
 To use the Amharic locale:
 - Load [moment-with-locales](http://momentjs.com/downloads/moment-with-locales.js).
-- Set the global or local locale to `am` see [here](http://momentjs.com/docs/#/i18n/changing-locale/).
+- Set the global or local locale to `am-ET` see [here](http://momentjs.com/docs/#/i18n/changing-locale/).
 - use it normally :+1: 
 
 Here is example:
 ```html
     <!-- 1- Load the moment-with-locales -->
     <script src="http://momentjs.com/downloads/moment-with-locales.min.js"></script>
-    <script src="https://raw.githubusercontent.com/supershutong/moment-ethiopia/master/moment-ethiopia.js"></script>
+    <script src="https://raw.githubusercontent.com/supershutong/moment-ethiopia/master/index.js"></script>
     
     <script>
-      moment.locale('am');// 2- Set the global locale to `am`
+      moment.locale('am-ET');// 2- Set the global locale to `am`
       m = moment();
       m.format('eYYYY/eM/eD'); //3- use it normally 
     </script>
